@@ -1,3 +1,5 @@
+package studio2;
+
 import java.util.*;
 
 public class Ruins {

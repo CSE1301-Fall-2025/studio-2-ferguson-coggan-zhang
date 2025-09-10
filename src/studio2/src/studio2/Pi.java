@@ -15,8 +15,8 @@ public class Pi {
         System.out.println(pi);
     }
     public static boolean throwDart(Random rand) {
-        int dartx = rand.nextInt(-1,1);
-        int darty = rand.nextInt(-1,1);
+        double dartx = rand.nextDouble(-1.0, 1.0);
+        double darty = rand.nextDouble(-1.0, 1.0);
         if (Math.sqrt(darty*darty + dartx*dartx) <= 1) {
             System.out.println("Hit");
             return true;
